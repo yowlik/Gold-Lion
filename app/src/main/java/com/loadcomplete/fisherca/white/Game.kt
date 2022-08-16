@@ -37,10 +37,10 @@ class Game : AppCompatActivity() {
             else{
                 scr--
                 if(scr==2){
-                    hurt3.setImageResource(R.drawable.branch)
+                    hurt3.setImageResource(R.drawable.noheart)
                 }
                 else if(scr==1){
-                    hurt2.setImageResource(R.drawable.branch)
+                    hurt2.setImageResource(R.drawable.noheart)
                 }
                 lose(scr)
 
@@ -57,10 +57,10 @@ class Game : AppCompatActivity() {
             else{
                 scr--
                 if(scr==2){
-                    hurt3.setImageResource(R.drawable.branch)
+                    hurt3.setImageResource(R.drawable.noheart)
                 }
                 else if(scr==1){
-                    hurt2.setImageResource(R.drawable.branch)
+                    hurt2.setImageResource(R.drawable.noheart)
                 }
                 lose(scr)
 
@@ -77,10 +77,10 @@ class Game : AppCompatActivity() {
             else{
                 scr--
                 if(scr==2){
-                    hurt3.setImageResource(R.drawable.branch)
+                    hurt3.setImageResource(R.drawable.noheart)
                 }
                 else if(scr==1){
-                    hurt2.setImageResource(R.drawable.branch)
+                    hurt2.setImageResource(R.drawable.noheart)
                 }
                 lose(scr)
 
@@ -97,10 +97,10 @@ class Game : AppCompatActivity() {
             else{
                 scr--
                 if(scr==2){
-                    hurt3.setImageResource(R.drawable.branch)
+                    hurt3.setImageResource(R.drawable.noheart)
                 }
                 else if(scr==1){
-                    hurt2.setImageResource(R.drawable.branch)
+                    hurt2.setImageResource(R.drawable.noheart)
                 }
                 lose(scr)
 
@@ -117,10 +117,10 @@ class Game : AppCompatActivity() {
             else{
                 scr--
                 if(scr==2){
-                    hurt3.setImageResource(R.drawable.branch)
+                    hurt3.setImageResource(R.drawable.noheart)
                 }
                 else if(scr==1){
-                    hurt2.setImageResource(R.drawable.branch)
+                    hurt2.setImageResource(R.drawable.noheart)
                 }
                 lose(scr)
 
@@ -132,9 +132,9 @@ class Game : AppCompatActivity() {
 
     fun check(i:String,im: ImageView) {
         if (i == "1") {
-            im.setImageResource(R.drawable.dimond)
+            im.setImageResource(R.drawable.gold)
         } else{
-            im.setImageResource(R.drawable.creep)
+            im.setImageResource(R.drawable.tnt)
         }
     }
     fun lose(src:Int){

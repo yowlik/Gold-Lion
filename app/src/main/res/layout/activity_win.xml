@@ -5,15 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".white.Win"
-    android:background="@drawable/minec"
+    android:background="@drawable/seas"
     >
 
     <TextView
+
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Good game"
         android:textColor="@color/white"
+        android:fontFamily="@font/font"
         android:textSize="28dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,6 +24,8 @@
         app:layout_constraintVertical_bias="0.366" />
 
     <Button
+        android:backgroundTint="#314AD6"
+        android:fontFamily="@font/font"
         android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
